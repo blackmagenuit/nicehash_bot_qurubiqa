@@ -134,7 +134,7 @@ class RigMonitor:
                         # Rig volvió a estar activo
                         icon = "✅"
                         status_text = "ACTIVO"
-                        message = f"{icon} <b>Rig Recuperado</b>\n\n"
+                        message = f"{icon} <b>Rig Recuperado - SELFVR</b>\n\n"
                         message += f"🖥️ <b>Rig:</b> {rig_name}\n"
                         message += f"📊 <b>Estado:</b> {status_text}\n"
                         message += f"🕐 <b>Hora:</b> {current_time}\n\n"
@@ -143,7 +143,7 @@ class RigMonitor:
                         # Rig se cayó
                         icon = "🔴"
                         status_text = "CAÍDO"
-                        message = f"{icon} <b>Alerta: Rig Caído</b>\n\n"
+                        message = f"{icon} <b>Alerta: Rig Caído - SELFVR</b>\n\n"
                         message += f"🖥️ <b>Rig:</b> {rig_name}\n"
                         message += f"📊 <b>Estado:</b> {status_text}\n"
                         message += f"🕐 <b>Hora:</b> {current_time}\n\n"
@@ -186,7 +186,7 @@ class RigMonitor:
             active_rigs = [r for r in rigs if r.get('minerStatus') == 'MINING']
             offline_rigs = [r for r in rigs if r.get('minerStatus') != 'MINING']
             
-            message = "📊 <b>Reporte de Estado de Rigs</b>\n\n"
+            message = "📊 <b>Reporte de Estado - SELFVR</b>\n\n"
             message += f"🕐 <b>Hora:</b> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
             message += f"📈 <b>Total de Rigs:</b> {len(rigs)}\n"
             message += f"✅ <b>Activos:</b> {len(active_rigs)}\n"
