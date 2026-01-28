@@ -190,14 +190,7 @@ class RigMonitor:
             message += f"🕐 <b>Hora:</b> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
             message += f"📈 <b>Total de Rigs:</b> {len(rigs)}\n"
             message += f"✅ <b>Activos:</b> {len(active_rigs)}\n"
-            message += f"❌ <b>Offline:</b> {len(offline_rigs)}\n\n"
-            
-            if offline_rigs:
-                message += "🔴 <b>Rigs Caídos:</b>\n"
-                for rig in offline_rigs[:10]:  # Mostrar máximo 10
-                    message += f"  • {rig.get('name', 'Sin nombre')}\n"
-                if len(offline_rigs) > 10:
-                    message += f"  ... y {len(offline_rigs) - 10} más\n"
+            message += f"❌ <b>Offline:</b> {len(offline_rigs)}\n"
             
             self.notifier.send_message(message)
             print("✓ Reporte de estado enviado")
