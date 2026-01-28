@@ -212,6 +212,7 @@ def main():
     
     # Verificar si se ejecuta en modo único (para GitHub Actions)
     check_once = '--check-once' in sys.argv
+    send_report = '--send-report' in sys.argv
     
     print("\n╔" + "═" * 58 + "╗")
     print("║" + " " * 10 + "NICEHASH RIG MONITOR - TELEGRAM" + " " * 17 + "║")
@@ -225,6 +226,13 @@ def main():
         print("✓ Monitor inicializado correctamente")
         print(f"✓ Bot de Telegram configurado")
         print(f"✓ Monitoreando {len(monitor.previous_states)} rigs\n")
+        
+        if send_report:
+            # Modo reporte: solo enviar reporte de estado
+            print("📊 Modo Reporte: Enviando estado del pool\n")
+            monitor.send_status_report()
+            print("\n✓ Reporte enviado")
+            return
         
         if check_once:
             # Modo GitHub Actions: una sola verificación

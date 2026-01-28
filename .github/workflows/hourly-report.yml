@@ -1,0 +1,35 @@
+name: Reporte Horario de Pool
+
+on:
+  schedule:
+    # Ejecutar cada hora en punto
+    - cron: '0 * * * *'
+  workflow_dispatch:  # Permite ejecutar manualmente
+
+jobs:
+  send-report:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v4
+      
+    - name: Configurar Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+        cache: 'pip'
+        
+    - name: Instalar dependencias
+      run: |
+        pip install -r requirements.txt
+        
+    - name: Enviar reporte de estado
+      env:
+        NICEHASH_API_KEY: ${{ secrets.NICEHASH_API_KEY }}
+        NICEHASH_API_SECRET: ${{ secrets.NICEHASH_API_SECRET }}
+        NICEHASH_ORG_ID: ${{ secrets.NICEHASH_ORG_ID }}
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      run: |
+        python telegram_bot.py --send-report
