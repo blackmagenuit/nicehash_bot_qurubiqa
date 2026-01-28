@@ -1,0 +1,2988 @@
+{
+  "timestamp": "2026-01-27T16:02:22.229098",
+  "rigs": {
+    "minerStatuses": {
+      "MINING": 120,
+      "OFFLINE": 252
+    },
+    "rigTypes": {
+      "UNMANAGED": 372
+    },
+    "totalRigs": 372,
+    "totalProfitability": 0.0007056000000000001,
+    "groupBundle": "",
+    "totalDevices": 372,
+    "devicesStatuses": {
+      "OFFLINE": 252,
+      "MINING": 120
+    },
+    "unpaidAmount": "0.00006099",
+    "unpaidFallOverTotalAmount": 0,
+    "path": "",
+    "btcAddress": "NHbXPYZmsoPvkcb87Qdb44TSEAnDxAuCgDYr",
+    "nextPayoutTimestamp": "2026-01-27T20:00:00Z",
+    "lastPayoutTimestamp": "2026-01-27T16:00:54Z",
+    "miningRigGroups": [],
+    "miningRigs": [
+      {
+        "rigId": "10x1x0x1",
+        "type": "UNMANAGED",
+        "name": "10x1x0x1",
+        "statusTime": 1769540514000,
+        "minerStatus": "MINING",
+        "unpaidAmount": "0.00000020",
+        "stats": [
+          {
+            "statsTime": 1769540514000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "SHA256ASICBOOST",
+              "description": "SHA256AsicBoost"
+            },
+            "unpaidAmount": "0.00000020",
+            "difficulty": 65536.0,
+            "proxyId": 2,
+            "timeConnected": 1769540359569,
+            "xnsub": true,
+            "speedAccepted": 0.0,
+            "speedRejectedR1Target": 0.0,
+            "speedRejectedR2Stale": 0.0,
+            "speedRejectedR3Duplicate": 0.0,
+            "speedRejectedR4NTime": 0.0,
+            "speedRejectedR5Other": 0.0,
+            "speedRejectedTotal": 0.0,
+            "profitability": 0.0
+          }
+        ],
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x10",
+        "type": "UNMANAGED",
+        "name": "10x1x0x10",
+        "statusTime": 1769540514000,
+        "minerStatus": "MINING",
+        "unpaidAmount": "0.00000020",
+        "stats": [
+          {
+            "statsTime": 1769540514000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "SHA256ASICBOOST",
+              "description": "SHA256AsicBoost"
+            },
+            "unpaidAmount": "0.00000020",
+            "difficulty": 131072.0,
+            "proxyId": 2,
+            "timeConnected": 1769540378056,
+            "xnsub": true,
+            "speedAccepted": 0.0,
+            "speedRejectedR1Target": 0.0,
+            "speedRejectedR2Stale": 0.0,
+            "speedRejectedR3Duplicate": 0.0,
+            "speedRejectedR4NTime": 0.0,
+            "speedRejectedR5Other": 0.0,
+            "speedRejectedTotal": 0.0,
+            "profitability": 0.0
+          }
+        ],
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x107",
+        "type": "UNMANAGED",
+        "name": "10x1x0x107",
+        "statusTime": 1769516454000,
+        "minerStatus": "OFFLINE",
+        "unpaidAmount": "0.00000000",
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x11",
+        "type": "UNMANAGED",
+        "name": "10x1x0x11",
+        "statusTime": 1769540514000,
+        "minerStatus": "MINING",
+        "unpaidAmount": "0.00000039",
+        "stats": [
+          {
+            "statsTime": 1769540514000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "SHA256ASICBOOST",
+              "description": "SHA256AsicBoost"
+            },
+            "unpaidAmount": "0.00000039",
+            "difficulty": 65536.0,
+            "proxyId": 2,
+            "timeConnected": 1769540371014,
+            "xnsub": true,
+            "speedAccepted": 0.0,
+            "speedRejectedR1Target": 0.0,
+            "speedRejectedR2Stale": 0.0,
+            "speedRejectedR3Duplicate": 0.0,
+            "speedRejectedR4NTime": 0.0,
+            "speedRejectedR5Other": 0.0,
+            "speedRejectedTotal": 0.0,
+            "profitability": 0.0
+          }
+        ],
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x112",
+        "type": "UNMANAGED",
+        "name": "10x1x0x112",
+        "statusTime": 1769516454000,
+        "minerStatus": "OFFLINE",
+        "unpaidAmount": "0.00000000",
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x116",
+        "type": "UNMANAGED",
+        "name": "10x1x0x116",
+        "statusTime": 1769516454000,
+        "minerStatus": "OFFLINE",
+        "unpaidAmount": "0.00000000",
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x118",
+        "type": "UNMANAGED",
+        "name": "10x1x0x118",
+        "statusTime": 1769516454000,
+        "minerStatus": "OFFLINE",
+        "unpaidAmount": "0.00000000",
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x12",
+        "type": "UNMANAGED",
+        "name": "10x1x0x12",
+        "statusTime": 1769540514000,
+        "minerStatus": "MINING",
+        "unpaidAmount": "0.00000042",
+        "stats": [
+          {
+            "statsTime": 1769540514000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "SHA256ASICBOOST",
+              "description": "SHA256AsicBoost"
+            },
+            "unpaidAmount": "0.00000042",
+            "difficulty": 65536.0,
+            "proxyId": 2,
+            "timeConnected": 1769540356047,
+            "xnsub": true,
+            "speedAccepted": 0.0,
+            "speedRejectedR1Target": 0.0,
+            "speedRejectedR2Stale": 0.0,
+            "speedRejectedR3Duplicate": 0.0,
+            "speedRejectedR4NTime": 0.0,
+            "speedRejectedR5Other": 0.0,
+            "speedRejectedTotal": 0.0,
+            "profitability": 0.0
+          }
+        ],
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x121",
+        "type": "UNMANAGED",
+        "name": "10x1x0x121",
+        "statusTime": 1769540514000,
+        "minerStatus": "MINING",
+        "unpaidAmount": "0.00000052",
+        "stats": [
+          {
+            "statsTime": 1769540514000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "SHA256ASICBOOST",
+              "description": "SHA256AsicBoost"
+            },
+            "unpaidAmount": "0.00000052",
+            "difficulty": 65536.0,
+            "proxyId": 2,
+            "timeConnected": 1769540366637,
+            "xnsub": true,
+            "speedAccepted": 0.0,
+            "speedRejectedR1Target": 0.0,
+            "speedRejectedR2Stale": 0.0,
+            "speedRejectedR3Duplicate": 0.0,
+            "speedRejectedR4NTime": 0.0,
+            "speedRejectedR5Other": 0.0,
+            "speedRejectedTotal": 0.0,
+            "profitability": 0.0
+          }
+        ],
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x122",
+        "type": "UNMANAGED",
+        "name": "10x1x0x122",
+        "statusTime": 1769516454000,
+        "minerStatus": "OFFLINE",
+        "unpaidAmount": "0.00000000",
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x123",
+        "type": "UNMANAGED",
+        "name": "10x1x0x123",
+        "statusTime": 1769540514000,
+        "minerStatus": "MINING",
+        "unpaidAmount": "0.00000020",
+        "stats": [
+          {
+            "statsTime": 1769540514000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "SHA256ASICBOOST",
+              "description": "SHA256AsicBoost"
+            },
+            "unpaidAmount": "0.00000020",
+            "difficulty": 131072.0,
+            "proxyId": 2,
+            "timeConnected": 1769540379787,
+            "xnsub": true,
+            "speedAccepted": 0.0,
+            "speedRejectedR1Target": 0.0,
+            "speedRejectedR2Stale": 0.0,
+            "speedRejectedR3Duplicate": 0.0,
+            "speedRejectedR4NTime": 0.0,
+            "speedRejectedR5Other": 0.0,
+            "speedRejectedTotal": 0.0,
+            "profitability": 0.0
+          }
+        ],
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x128",
+        "type": "UNMANAGED",
+        "name": "10x1x0x128",
+        "statusTime": 1769516454000,
+        "minerStatus": "OFFLINE",
+        "unpaidAmount": "0.00000000",
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x134",
+        "type": "UNMANAGED",
+        "name": "10x1x0x134",
+        "statusTime": 1769540514000,
+        "minerStatus": "MINING",
+        "unpaidAmount": "0.00000044",
+        "stats": [
+          {
+            "statsTime": 1769540514000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "SHA256ASICBOOST",
+              "description": "SHA256AsicBoost"
+            },
+            "unpaidAmount": "0.00000044",
+            "difficulty": 131072.0,
+            "proxyId": 2,
+            "timeConnected": 1769540431178,
+            "xnsub": true,
+            "speedAccepted": 0.0,
+            "speedRejectedR1Target": 0.0,
+            "speedRejectedR2Stale": 0.0,
+            "speedRejectedR3Duplicate": 0.0,
+            "speedRejectedR4NTime": 0.0,
+            "speedRejectedR5Other": 0.0,
+            "speedRejectedTotal": 0.0,
+            "profitability": 0.0
+          }
+        ],
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x135",
+        "type": "UNMANAGED",
+        "name": "10x1x0x135",
+        "statusTime": 1769516454000,
+        "minerStatus": "OFFLINE",
+        "unpaidAmount": "0.00000000",
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x136",
+        "type": "UNMANAGED",
+        "name": "10x1x0x136",
+        "statusTime": 1769516454000,
+        "minerStatus": "OFFLINE",
+        "unpaidAmount": "0.00000000",
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x14",
+        "type": "UNMANAGED",
+        "name": "10x1x0x14",
+        "statusTime": 1769540514000,
+        "minerStatus": "MINING",
+        "unpaidAmount": "0.00000050",
+        "stats": [
+          {
+            "statsTime": 1769540514000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "SHA256ASICBOOST",
+              "description": "SHA256AsicBoost"
+            },
+            "unpaidAmount": "0.00000050",
+            "difficulty": 131072.0,
+            "proxyId": 2,
+            "timeConnected": 1769540375967,
+            "xnsub": true,
+            "speedAccepted": 0.0,
+            "speedRejectedR1Target": 0.0,
+            "speedRejectedR2Stale": 0.0,
+            "speedRejectedR3Duplicate": 0.0,
+            "speedRejectedR4NTime": 0.0,
+            "speedRejectedR5Other": 0.0,
+            "speedRejectedTotal": 0.0,
+            "profitability": 0.0
+          }
+        ],
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x140",
+        "type": "UNMANAGED",
+        "name": "10x1x0x140",
+        "statusTime": 1769540514000,
+        "minerStatus": "MINING",
+        "unpaidAmount": "0.00000054",
+        "stats": [
+          {
+            "statsTime": 1769540514000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "SHA256ASICBOOST",
+              "description": "SHA256AsicBoost"
+            },
+            "unpaidAmount": "0.00000054",
+            "difficulty": 131072.0,
+            "proxyId": 2,
+            "timeConnected": 1769540376929,
+            "xnsub": true,
+            "speedAccepted": 0.0,
+            "speedRejectedR1Target": 0.0,
+            "speedRejectedR2Stale": 0.0,
+            "speedRejectedR3Duplicate": 0.0,
+            "speedRejectedR4NTime": 0.0,
+            "speedRejectedR5Other": 0.0,
+            "speedRejectedTotal": 0.0,
+            "profitability": 0.0
+          }
+        ],
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x15",
+        "type": "UNMANAGED",
+        "name": "10x1x0x15",
+        "statusTime": 1769516454000,
+        "minerStatus": "OFFLINE",
+        "unpaidAmount": "0.00000000",
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x164",
+        "type": "UNMANAGED",
+        "name": "10x1x0x164",
+        "statusTime": 1769540514000,
+        "minerStatus": "MINING",
+        "unpaidAmount": "0.00000039",
+        "stats": [
+          {
+            "statsTime": 1769540514000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "SHA256ASICBOOST",
+              "description": "SHA256AsicBoost"
+            },
+            "unpaidAmount": "0.00000039",
+            "difficulty": 131072.0,
+            "proxyId": 2,
+            "timeConnected": 1769540381068,
+            "xnsub": true,
+            "speedAccepted": 0.0,
+            "speedRejectedR1Target": 0.0,
+            "speedRejectedR2Stale": 0.0,
+            "speedRejectedR3Duplicate": 0.0,
+            "speedRejectedR4NTime": 0.0,
+            "speedRejectedR5Other": 0.0,
+            "speedRejectedTotal": 0.0,
+            "profitability": 0.0
+          }
+        ],
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x17",
+        "type": "UNMANAGED",
+        "name": "10x1x0x17",
+        "statusTime": 1769516454000,
+        "minerStatus": "OFFLINE",
+        "unpaidAmount": "0.00000000",
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x172",
+        "type": "UNMANAGED",
+        "name": "10x1x0x172",
+        "statusTime": 1769540514000,
+        "minerStatus": "MINING",
+        "unpaidAmount": "0.00000051",
+        "stats": [
+          {
+            "statsTime": 1769540514000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "SHA256ASICBOOST",
+              "description": "SHA256AsicBoost"
+            },
+            "unpaidAmount": "0.00000051",
+            "difficulty": 65536.0,
+            "proxyId": 2,
+            "timeConnected": 1769540369813,
+            "xnsub": true,
+            "speedAccepted": 0.0,
+            "speedRejectedR1Target": 0.0,
+            "speedRejectedR2Stale": 0.0,
+            "speedRejectedR3Duplicate": 0.0,
+            "speedRejectedR4NTime": 0.0,
+            "speedRejectedR5Other": 0.0,
+            "speedRejectedTotal": 0.0,
+            "profitability": 0.0
+          }
+        ],
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x173",
+        "type": "UNMANAGED",
+        "name": "10x1x0x173",
+        "statusTime": 1769516454000,
+        "minerStatus": "OFFLINE",
+        "unpaidAmount": "0.00000000",
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x188",
+        "type": "UNMANAGED",
+        "name": "10x1x0x188",
+        "statusTime": 1769516454000,
+        "minerStatus": "OFFLINE",
+        "unpaidAmount": "0.00000000",
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x195",
+        "type": "UNMANAGED",
+        "name": "10x1x0x195",
+        "statusTime": 1769540514000,
+        "minerStatus": "MINING",
+        "unpaidAmount": "0.00000019",
+        "stats": [
+          {
+            "statsTime": 1769540514000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "SHA256ASICBOOST",
+              "description": "SHA256AsicBoost"
+            },
+            "unpaidAmount": "0.00000019",
+            "difficulty": 131072.0,
+            "proxyId": 2,
+            "timeConnected": 1769540376690,
+            "xnsub": true,
+            "speedAccepted": 0.0,
+            "speedRejectedR1Target": 0.0,
+            "speedRejectedR2Stale": 0.0,
+            "speedRejectedR3Duplicate": 0.0,
+            "speedRejectedR4NTime": 0.0,
+            "speedRejectedR5Other": 0.0,
+            "speedRejectedTotal": 0.0,
+            "profitability": 0.0
+          }
+        ],
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      },
+      {
+        "rigId": "10x1x0x2",
+        "type": "UNMANAGED",
+        "name": "10x1x0x2",
+        "statusTime": 1769540514000,
+        "minerStatus": "MINING",
+        "unpaidAmount": "0.00000048",
+        "stats": [
+          {
+            "statsTime": 1769540514000,
+            "market": "USA",
+            "algorithm": {
+              "enumName": "SHA256ASICBOOST",
+              "description": "SHA256AsicBoost"
+            },
+            "unpaidAmount": "0.00000048",
+            "difficulty": 131072.0,
+            "proxyId": 2,
+            "timeConnected": 1769540375781,
+            "xnsub": true,
+            "speedAccepted": 0.0,
+            "speedRejectedR1Target": 0.0,
+            "speedRejectedR2Stale": 0.0,
+            "speedRejectedR3Duplicate": 0.0,
+            "speedRejectedR4NTime": 0.0,
+            "speedRejectedR5Other": 0.0,
+            "speedRejectedTotal": 0.0,
+            "profitability": 0.0
+          }
+        ],
+        "profitability": 0.0,
+        "localProfitability": 0.0,
+        "hasV4Rigs": false
+      }
+    ],
+    "rigNhmVersions": [],
+    "externalAddress": false,
+    "totalProfitabilityLocal": 0.0,
+    "pagination": {
+      "size": 25,
+      "page": 0,
+      "totalPageCount": 15
+    },
+    "hasV4Rigs": false,
+    "payoutCurrency": "BTC",
+    "payoutAmount": 1000,
+    "miningFee": 2,
+    "publicAddress": {
+      "isPublic": false
+    },
+    "totalSpeedAccepted": {
+      "35": 606.1257130906746
+    },
+    "via": "RIG"
+  },
+  "active_workers": {
+    "pagination": {
+      "size": 100,
+      "page": 0,
+      "totalPageCount": 2
+    },
+    "workers": [
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000020",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540359569,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x1"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000020",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540378056,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x10"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000039",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540371014,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x11"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000042",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540356047,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x12"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000052",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540366637,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x121"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000020",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540379787,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x123"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000044",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540431178,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x134"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000050",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540375967,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x14"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000054",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540376929,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x140"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000039",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540381068,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x164"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000051",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540369813,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x172"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000019",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540376690,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x195"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000048",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540375781,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x2"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000062",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540353992,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x201"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000047",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540394884,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x24"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000023",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540357096,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x253"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000043",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540372767,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x5"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000050",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540362824,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x7"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000039",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540362678,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x8"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000058",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540376635,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x80"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000027",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540354285,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x84"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000050",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540369947,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x0x94"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000053",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540367467,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x1x1"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000065",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540371311,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x1x116"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000031",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540375288,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x1x120"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000033",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540353622,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x1x16"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000032",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540370020,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x1x224"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000049",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540368012,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x1x225"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000048",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540370778,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x1x229"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000041",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540445564,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x1x23"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000037",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540364496,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x1x234"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000048",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540360041,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x1x245"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000039",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540364326,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x1x249"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000074",
+        "difficulty": 32768.0,
+        "proxyId": 2,
+        "timeConnected": 1769540131693,
+        "xnsub": true,
+        "speedAccepted": 24.582147966063957,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 2.5920000000000003e-05,
+        "rigName": "10x1x1x31"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000033",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540359995,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x1x37"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000052",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540373791,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x1x4"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000031",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540371165,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x1x62"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000039",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540383163,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x1x94"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000019",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540366000,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x2x167"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000051",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540374508,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x2x217"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000050",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540377792,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x2x228"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000043",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540382209,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x2x233"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000039",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540430819,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x2x238"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000036",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540360412,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x2x239"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000000",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540437207,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x1x2x248"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000047",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540404873,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x100"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000041",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540399901,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x106"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000049",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540399869,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x107"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000043",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540402958,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x108"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000025",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540395736,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x112"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000045",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540396807,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x114"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000034",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540395788,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x115"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000037",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540398894,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x116"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000051",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540398532,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x118"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000000",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540396607,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x120"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000045",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540398615,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x130"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000044",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540409384,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x133"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000028",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540394844,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x134"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000017",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540400557,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x51"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000000",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540396603,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x56"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000046",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540396737,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x57"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000000",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540396639,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x58"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000034",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540395802,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x59"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000020",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540398860,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x61"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000044",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540400614,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x63"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000024",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540399953,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x70"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000042",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540395792,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x73"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000044",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540398911,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x80"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000029",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540400576,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x82"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000051",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540396844,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x85"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000000",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540396634,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x89"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000044",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540402929,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x95"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000045",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540396816,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x0x98"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000042",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540400744,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x2x101"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000043",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540399032,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x2x103"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000000",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540403775,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x2x121"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000043",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540402982,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x2x139"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000033",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540397788,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x2x142"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000040",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540397849,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x2x143"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000051",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540407744,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x2x147"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000044",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540397835,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x2x241"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000038",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540399951,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x2x253"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000041",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540398993,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x2x52"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000021",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540400606,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x2x56"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000018",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540394478,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x2x57"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000046",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540399997,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x2x67"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000045",
+        "difficulty": 131072.0,
+        "proxyId": 2,
+        "timeConnected": 1769540397807,
+        "xnsub": true,
+        "speedAccepted": 0.0,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 0.0,
+        "rigName": "10x2x2x96"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000053",
+        "difficulty": 32768.0,
+        "proxyId": 2,
+        "timeConnected": 1769540135239,
+        "xnsub": true,
+        "speedAccepted": 15.011998757901653,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 2.0159999999999997e-05,
+        "rigName": "10x4x0x21"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000084",
+        "difficulty": 32768.0,
+        "proxyId": 2,
+        "timeConnected": 1769540133148,
+        "xnsub": true,
+        "speedAccepted": 22.142698167904936,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 2.5920000000000003e-05,
+        "rigName": "10x4x0x24"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000029",
+        "difficulty": 32768.0,
+        "proxyId": 2,
+        "timeConnected": 1769540140636,
+        "xnsub": true,
+        "speedAccepted": 6.380099472108203,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 5.760000000000001e-06,
+        "rigName": "10x4x0x25"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000065",
+        "difficulty": 32768.0,
+        "proxyId": 2,
+        "timeConnected": 1769540134951,
+        "xnsub": true,
+        "speedAccepted": 33.40169723633118,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 3.456000000000001e-05,
+        "rigName": "10x4x0x26"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000082",
+        "difficulty": 32768.0,
+        "proxyId": 2,
+        "timeConnected": 1769540128863,
+        "xnsub": true,
+        "speedAccepted": 24.769797950537725,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 2.5920000000000003e-05,
+        "rigName": "10x4x0x30"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000035",
+        "difficulty": 32768.0,
+        "proxyId": 2,
+        "timeConnected": 1769540136885,
+        "xnsub": true,
+        "speedAccepted": 7.130699410003286,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 1.1520000000000002e-05,
+        "rigName": "10x4x0x35"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000065",
+        "difficulty": 32768.0,
+        "proxyId": 2,
+        "timeConnected": 1769540137192,
+        "xnsub": true,
+        "speedAccepted": 26.833947779749202,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 2.592e-05,
+        "rigName": "10x4x0x36"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000075",
+        "difficulty": 262144.0,
+        "proxyId": 2,
+        "timeConnected": 1769540133632,
+        "xnsub": true,
+        "speedAccepted": 21.204448245536085,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 2.3040000000000003e-05,
+        "rigName": "10x4x0x37"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000070",
+        "difficulty": 262144.0,
+        "proxyId": 2,
+        "timeConnected": 1769540141905,
+        "xnsub": true,
+        "speedAccepted": 14.44904880448034,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 1.7280000000000004e-05,
+        "rigName": "10x4x0x38"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000068",
+        "difficulty": 32768.0,
+        "proxyId": 2,
+        "timeConnected": 1769540125789,
+        "xnsub": true,
+        "speedAccepted": 23.268598074747562,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 3.4559999999999994e-05,
+        "rigName": "10x4x0x42"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000072",
+        "difficulty": 65536.0,
+        "proxyId": 2,
+        "timeConnected": 1769540206377,
+        "xnsub": true,
+        "speedAccepted": 9.945449177109845,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 1.4400000000000001e-05,
+        "rigName": "10x4x0x48"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000070",
+        "difficulty": 32768.0,
+        "proxyId": 2,
+        "timeConnected": 1769540141013,
+        "xnsub": true,
+        "speedAccepted": 20.078548338693462,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 2.3040000000000003e-05,
+        "rigName": "10x4x0x51"
+      },
+      {
+        "statsTime": 1769540514000,
+        "market": "USA",
+        "algorithm": {
+          "enumName": "SHA256ASICBOOST",
+          "description": "SHA256AsicBoost"
+        },
+        "unpaidAmount": "0.00000076",
+        "difficulty": 32768.0,
+        "proxyId": 2,
+        "timeConnected": 1769540139880,
+        "xnsub": true,
+        "speedAccepted": 18.202048493955758,
+        "speedRejectedR1Target": 0.0,
+        "speedRejectedR2Stale": 0.0,
+        "speedRejectedR3Duplicate": 0.0,
+        "speedRejectedR4NTime": 0.0,
+        "speedRejectedR5Other": 0.0,
+        "speedRejectedTotal": 0.0,
+        "profitability": 2.3040000000000003e-05,
+        "rigName": "10x4x0x56"
+      }
+    ]
+  },
+  "algo_statistics": {
+    "algorithms": {
+      "SHA256ASICBOOST": {
+        "unpaid": "0.00006099",
+        "profitability": 0.0007056000000000001,
+        "speedAccepted": 606125713090674.8,
+        "speedRejected": 0.0,
+        "displaySuffix": "TH",
+        "isActive": true
+      }
+    }
+  },
+  "monthly_production": [
+    {
+      "date": "2026-01-26T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01087153
+    },
+    {
+      "date": "2026-01-25T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01500927
+    },
+    {
+      "date": "2026-01-24T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01311232
+    },
+    {
+      "date": "2026-01-23T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01430144
+    },
+    {
+      "date": "2026-01-22T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01622278
+    },
+    {
+      "date": "2026-01-21T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01659992
+    },
+    {
+      "date": "2026-01-20T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.0179082
+    },
+    {
+      "date": "2026-01-19T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01411573
+    },
+    {
+      "date": "2026-01-18T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01709669
+    },
+    {
+      "date": "2026-01-17T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01260507
+    },
+    {
+      "date": "2026-01-16T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.00941041
+    },
+    {
+      "date": "2026-01-15T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.00968406
+    },
+    {
+      "date": "2026-01-14T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.0135878
+    },
+    {
+      "date": "2026-01-13T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01709136
+    },
+    {
+      "date": "2026-01-12T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01783881
+    },
+    {
+      "date": "2026-01-11T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01769215
+    },
+    {
+      "date": "2026-01-10T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01775398
+    },
+    {
+      "date": "2026-01-09T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01171074
+    },
+    {
+      "date": "2026-01-08T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01226263
+    },
+    {
+      "date": "2026-01-07T00:00:00Z",
+      "algos": [
+        35
+      ],
+      "totalEarnings": 0.01280292
+    }
+  ],
+  "unpaid_balance": {
+    "error": "400 Client Error: Bad Request for url: https://api2.nicehash.com/main/api/v2/mining/rig/stats/unpaid"
+  }
+}
