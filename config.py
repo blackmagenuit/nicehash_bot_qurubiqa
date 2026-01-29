@@ -13,6 +13,9 @@ API_SECRET = os.getenv('NICEHASH_API_SECRET')
 ORG_ID = os.getenv('NICEHASH_ORG_ID')
 API_URL = os.getenv('NICEHASH_API_URL', 'https://api2.nicehash.com')
 
+# Nombre de la cuenta (para identificar en notificaciones)
+ACCOUNT_NAME = os.getenv('ACCOUNT_NAME', 'NICEHASH')
+
 # Configuración de Telegram
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
