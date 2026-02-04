@@ -1,28 +1,26 @@
-name: Monitor Horario NiceHash
+name: Reporte Diario 00:00
 
 on:
   schedule:
-    # Ejecutar cada hora en punto
-    - cron: '0 * * * *'
+    # Ejecutar a las 00:00 hora de Paraguay (03:00 UTC)
+    - cron: '0 3 * * *'
   workflow_dispatch:  # Permite ejecutar manualmente
 
 jobs:
-  monitor-hourly:
+  daily-report:
     runs-on: ubuntu-latest
     
     steps:
     - name: Checkout código
       uses: actions/checkout@v4
       
-    - name: Restaurar estado de rigs previo
+    - name: Restaurar estadísticas diarias
       uses: actions/cache@v4
       with:
-        path: |
-          rig_states.json
-          daily_stats.json
-        key: rig-states-${{ github.run_id }}
+        path: daily_stats.json
+        key: daily-stats-${{ github.run_id }}
         restore-keys: |
-          rig-states-
+          daily-stats-
       
     - name: Configurar Python
       uses: actions/setup-python@v5
@@ -34,7 +32,7 @@ jobs:
       run: |
         pip install -r requirements.txt
         
-    - name: Verificar estado de rigs y enviar notificaciones
+    - name: Enviar reporte diario
       env:
         NICEHASH_API_KEY: ${{ secrets.NICEHASH_API_KEY }}
         NICEHASH_API_SECRET: ${{ secrets.NICEHASH_API_SECRET }}
@@ -43,4 +41,4 @@ jobs:
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         ACCOUNT_NAME: ${{ secrets.ACCOUNT_NAME }}
       run: |
-        python telegram_bot.py --check-once
+        python telegram_bot.py --daily-report

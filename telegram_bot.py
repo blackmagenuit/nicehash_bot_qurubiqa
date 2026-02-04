@@ -71,6 +71,7 @@ class RigMonitor:
         self.notifier = notifier
         self.previous_states = {}
         self.state_file = "rig_states.json"
+        self.stats_file = "daily_stats.json"
         self.load_states()
     
     def load_states(self):
@@ -93,6 +94,100 @@ class RigMonitor:
                 json.dump(self.previous_states, f, indent=2)
         except Exception as e:
             print(f"⚠️  Error al guardar estados: {e}")
+    
+    def save_hourly_stats(self, total, active, offline):
+        """Guarda estadísticas horarias para el reporte diario"""
+        try:
+            current_date = get_paraguay_time().strftime('%Y-%m-%d')
+            current_hour = get_paraguay_time().strftime('%Y-%m-%d %H:%M')
+            
+            # Cargar estadísticas existentes
+            stats = {}
+            try:
+                with open(self.stats_file, 'r') as f:
+                    stats = json.load(f)
+            except FileNotFoundError:
+                pass
+            
+            # Inicializar día si no existe
+            if current_date not in stats:
+                stats[current_date] = []
+            
+            # Agregar datos de esta hora
+            stats[current_date].append({
+                'timestamp': current_hour,
+                'total': total,
+                'active': active,
+                'offline': offline
+            })
+            
+            # Guardar
+            with open(self.stats_file, 'w') as f:
+                json.dump(stats, f, indent=2)
+            
+        except Exception as e:
+            print(f"⚠️  Error al guardar estadísticas: {e}")
+    
+    def send_daily_report(self):
+        """Envía el reporte diario con promedios del día anterior"""
+        try:
+            yesterday = (get_paraguay_time() - timedelta(days=1)).strftime('%Y-%m-%d')
+            
+            # Cargar estadísticas
+            try:
+                with open(self.stats_file, 'r') as f:
+                    stats = json.load(f)
+            except FileNotFoundError:
+                print("⚠️  No hay estadísticas para generar reporte diario")
+                return
+            
+            if yesterday not in stats:
+                print(f"⚠️  No hay datos para {yesterday}")
+                return
+            
+            day_stats = stats[yesterday]
+            
+            if not day_stats:
+                print(f"⚠️  No hay datos para {yesterday}")
+                return
+            
+            # Calcular promedios
+            total_checks = len(day_stats)
+            avg_total = sum(s['total'] for s in day_stats) / total_checks
+            avg_active = sum(s['active'] for s in day_stats) / total_checks
+            avg_offline = sum(s['offline'] for s in day_stats) / total_checks
+            
+            # Calcular máximos y mínimos
+            max_active = max(s['active'] for s in day_stats)
+            min_active = min(s['active'] for s in day_stats)
+            max_offline = max(s['offline'] for s in day_stats)
+            min_offline = min(s['offline'] for s in day_stats)
+            
+            # Preparar mensaje
+            message = f"📊 <b>Resumen Diario - {ACCOUNT_NAME}</b>\n\n"
+            message += f"📅 <b>Fecha:</b> {yesterday}\n"
+            message += f"🕐 <b>Generado:</b> {get_paraguay_time().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
+            message += f"📈 <b>Promedios del Día:</b>\n"
+            message += f"• Total de Rigs: {avg_total:.0f}\n"
+            message += f"• Activos: {avg_active:.0f} (promedio)\n"
+            message += f"• Offline: {avg_offline:.0f} (promedio)\n\n"
+            message += f"📊 <b>Rangos:</b>\n"
+            message += f"• Activos: {min_active} - {max_active}\n"
+            message += f"• Offline: {min_offline} - {max_offline}\n\n"
+            message += f"📋 <b>Lecturas:</b> {total_checks} checks durante el día"
+            
+            self.notifier.send_message(message)
+            print("✓ Reporte diario enviado")
+            
+            # Limpiar datos antiguos (mantener solo últimos 7 días)
+            cutoff_date = (get_paraguay_time() - timedelta(days=7)).strftime('%Y-%m-%d')
+            stats = {k: v for k, v in stats.items() if k >= cutoff_date}
+            
+            with open(self.stats_file, 'w') as f:
+                json.dump(stats, f, indent=2)
+            
+        except Exception as e:
+            print(f"❌ Error al enviar reporte diario: {e}")
     
     def check_rigs(self):
         """Verifica el estado de todos los rigs y envía notificaciones si hay cambios"""
@@ -149,6 +244,9 @@ class RigMonitor:
             
             # Guardar estados actualizados
             self.save_states()
+            
+            # Guardar estadísticas horarias
+            self.save_hourly_stats(len(rigs), active_count, offline_count)
             
             # Resumen
             print(f"  ✓ Total: {len(rigs)} rigs")
@@ -208,6 +306,7 @@ def main():
     # Verificar si se ejecuta en modo único (para GitHub Actions)
     check_once = '--check-once' in sys.argv
     send_report = '--send-report' in sys.argv
+    daily_report = '--daily-report' in sys.argv
     
     print("\n╔" + "═" * 58 + "╗")
     print("║" + " " * 10 + "NICEHASH RIG MONITOR - TELEGRAM" + " " * 17 + "║")
@@ -221,6 +320,13 @@ def main():
         print("✓ Monitor inicializado correctamente")
         print(f"✓ Bot de Telegram configurado")
         print(f"✓ Monitoreando {len(monitor.previous_states)} rigs\n")
+        
+        if daily_report:
+            # Modo reporte diario: enviar resumen del día anterior
+            print("📊 Modo Reporte Diario: Enviando resumen del día\n")
+            monitor.send_daily_report()
+            print("\n✓ Reporte diario enviado")
+            return
         
         if send_report:
             # Modo reporte: solo enviar reporte de estado
