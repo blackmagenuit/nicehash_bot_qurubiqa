@@ -253,16 +253,17 @@ class RigMonitor:
             print(f"  ✅ Activos: {active_count}")
             print(f"  ❌ Offline: {offline_count}")
             
-            # Enviar mensaje solo con estado actual (sin detalles de cambios)
+            # Enviar mensaje siempre (cada hora)
+            message = f"📊 <b>Reporte de Estado - {ACCOUNT_NAME}</b>\n\n"
+            message += f"🕐 <b>Hora:</b> {current_time}\n\n"
+            message += f"📈 <b>Estado Actual:</b>\n"
+            message += f"• Total: {len(rigs)}\n"
+            message += f"• Activos: {active_count}\n"
+            message += f"• Offline: {offline_count}"
+            
+            self.notifier.send_message(message)
+            
             if rigs_caidos or rigs_recuperados:
-                message = f"📊 <b>Reporte de Estado - {ACCOUNT_NAME}</b>\n\n"
-                message += f"🕐 <b>Hora:</b> {current_time}\n\n"
-                message += f"📈 <b>Estado Actual:</b>\n"
-                message += f"• Total: {len(rigs)}\n"
-                message += f"• Activos: {active_count}\n"
-                message += f"• Offline: {offline_count}"
-                
-                self.notifier.send_message(message)
                 print(f"  🔔 Cambios detectados: {len(rigs_caidos) + len(rigs_recuperados)}")
             else:
                 print(f"  ℹ️  Sin cambios detectados")
