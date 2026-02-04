@@ -5,9 +5,16 @@ Envía notificaciones cuando los rigs cambian de estado (activo/caído)
 import time
 import json
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from nicehash_client import NiceHashClient
 from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, ACCOUNT_NAME
+
+# Zona horaria de Paraguay (GMT-3)
+PARAGUAY_TZ = timezone(timedelta(hours=-3))
+
+def get_paraguay_time():
+    """Retorna la hora actual en zona horaria de Paraguay"""
+    return datetime.now(PARAGUAY_TZ)
 
 
 class TelegramNotifier:
@@ -90,7 +97,7 @@ class RigMonitor:
     def check_rigs(self):
         """Verifica el estado de todos los rigs y envía notificaciones si hay cambios"""
         try:
-            print(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Verificando rigs...")
+            print(f"\n[{get_paraguay_time().strftime('%Y-%m-%d %H:%M:%S')}] Verificando rigs...")
             
             rigs_data = self.client.get_rigs()
             
@@ -99,7 +106,7 @@ class RigMonitor:
                 return
             
             rigs = rigs_data['miningRigs']
-            current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            current_time = get_paraguay_time().strftime('%Y-%m-%d %H:%M:%S')
             
             # Contadores
             active_count = 0
@@ -175,7 +182,7 @@ class RigMonitor:
             print(f"❌ Error al verificar rigs: {e}")
             error_message = f"🚨 <b>Error en el Monitor</b>\n\n"
             error_message += f"⚠️ Error: {str(e)}\n"
-            error_message += f"🕐 Hora: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+            error_message += f"🕐 Hora: {get_paraguay_time().strftime('%Y-%m-%d %H:%M:%S')}"
             self.notifier.send_message(error_message)
     
     def send_status_report(self):
@@ -191,7 +198,7 @@ class RigMonitor:
             offline_rigs = [r for r in rigs if r.get('minerStatus') != 'MINING']
             
             message = f"📊 <b>Reporte de Estado - {ACCOUNT_NAME}</b>\n\n"
-            message += f"🕐 <b>Hora:</b> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
+            message += f"🕐 <b>Hora:</b> {get_paraguay_time().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
             message += f"📈 <b>Total de Rigs:</b> {len(rigs)}\n"
             message += f"✅ <b>Activos:</b> {len(active_rigs)}\n"
             message += f"❌ <b>Offline:</b> {len(offline_rigs)}\n"
@@ -242,7 +249,7 @@ def main():
         # Enviar mensaje de inicio
         start_message = "🤖 <b>Monitor de Rigs Iniciado</b>\n\n"
         start_message += f"✅ El bot está activo y monitoreando tus rigs\n"
-        start_message += f"🕐 Inicio: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+        start_message += f"🕐 Inicio: {get_paraguay_time().strftime('%Y-%m-%d %H:%M:%S')}"
         notifier.send_message(start_message)
         
         # Configuración
@@ -272,7 +279,7 @@ def main():
         print("\n\n⏹️  Monitor detenido por el usuario")
         try:
             stop_message = "⏹️ <b>Monitor de Rigs Detenido</b>\n\n"
-            stop_message += f"🕐 Fin: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+            stop_message += f"🕐 Fin: {get_paraguay_time().strftime('%Y-%m-%d %H:%M:%S')}"
             notifier.send_message(stop_message)
         except:
             pass
