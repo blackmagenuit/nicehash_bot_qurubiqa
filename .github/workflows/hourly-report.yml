@@ -14,6 +14,14 @@ jobs:
     - name: Checkout código
       uses: actions/checkout@v4
       
+    - name: Restaurar estado de rigs previo
+      uses: actions/cache@v4
+      with:
+        path: rig_states.json
+        key: rig-states-${{ github.run_id }}
+        restore-keys: |
+          rig-states-
+      
     - name: Configurar Python
       uses: actions/setup-python@v5
       with:
