@@ -157,12 +157,6 @@ class RigMonitor:
             avg_active = sum(s['active'] for s in day_stats) / total_checks
             avg_offline = sum(s['offline'] for s in day_stats) / total_checks
             
-            # Calcular máximos y mínimos
-            max_active = max(s['active'] for s in day_stats)
-            min_active = min(s['active'] for s in day_stats)
-            max_offline = max(s['offline'] for s in day_stats)
-            min_offline = min(s['offline'] for s in day_stats)
-            
             # Preparar mensaje
             message = f"📊 <b>Resumen Diario - {ACCOUNT_NAME}</b>\n\n"
             message += f"📅 <b>Fecha:</b> {yesterday}\n"
@@ -171,9 +165,6 @@ class RigMonitor:
             message += f"• Total de Rigs: {avg_total:.0f}\n"
             message += f"• Activos: {avg_active:.0f} (promedio)\n"
             message += f"• Offline: {avg_offline:.0f} (promedio)\n\n"
-            message += f"📊 <b>Rangos:</b>\n"
-            message += f"• Activos: {min_active} - {max_active}\n"
-            message += f"• Offline: {min_offline} - {max_offline}\n\n"
             message += f"📋 <b>Lecturas:</b> {total_checks} checks durante el día"
             
             self.notifier.send_message(message)
