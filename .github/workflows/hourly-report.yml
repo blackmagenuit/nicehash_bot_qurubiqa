@@ -1,4 +1,4 @@
-name: Reporte Horario de Pool
+name: Monitor Horario NiceHash
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:  # Permite ejecutar manualmente
 
 jobs:
-  send-report:
+  monitor-hourly:
     runs-on: ubuntu-latest
     
     steps:
@@ -24,7 +24,7 @@ jobs:
       run: |
         pip install -r requirements.txt
         
-    - name: Enviar reporte de estado
+    - name: Verificar estado de rigs y enviar notificaciones
       env:
         NICEHASH_API_KEY: ${{ secrets.NICEHASH_API_KEY }}
         NICEHASH_API_SECRET: ${{ secrets.NICEHASH_API_SECRET }}
@@ -32,4 +32,4 @@ jobs:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: |
-        python telegram_bot.py --send-report
+        python telegram_bot.py --check-once
