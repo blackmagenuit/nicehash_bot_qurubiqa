@@ -155,19 +155,10 @@ class RigMonitor:
             print(f"  ✅ Activos: {active_count}")
             print(f"  ❌ Offline: {offline_count}")
             
-            # Enviar un solo mensaje consolidado si hubo cambios
+            # Enviar mensaje solo con estado actual (sin detalles de cambios)
             if rigs_caidos or rigs_recuperados:
-                message = f"📊 <b>Reporte de Cambios - {ACCOUNT_NAME}</b>\n\n"
+                message = f"📊 <b>Reporte de Estado - {ACCOUNT_NAME}</b>\n\n"
                 message += f"🕐 <b>Hora:</b> {current_time}\n\n"
-                
-                if rigs_caidos:
-                    message += f"🔴 <b>Mineros Caídos ({len(rigs_caidos)}):</b>\n"
-                    message += f"{', '.join(rigs_caidos)}\n\n"
-                
-                if rigs_recuperados:
-                    message += f"✅ <b>Mineros Recuperados ({len(rigs_recuperados)}):</b>\n"
-                    message += f"{', '.join(rigs_recuperados)}\n\n"
-                
                 message += f"📈 <b>Estado Actual:</b>\n"
                 message += f"• Total: {len(rigs)}\n"
                 message += f"• Activos: {active_count}\n"
