@@ -102,9 +102,12 @@ class RigMonitor:
             current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
             
             # Contadores
-            changes_detected = 0
             active_count = 0
             offline_count = 0
+            
+            # Listas para rigs que cambiaron
+            rigs_caidos = []
+            rigs_recuperados = []
             
             for rig in rigs:
                 rig_name = rig.get('name', 'Sin nombre')
@@ -126,33 +129,16 @@ class RigMonitor:
                     
                 elif previous_status != rig_status:
                     # El estado cambió
-                    changes_detected += 1
                     self.previous_states[rig_name] = rig_status
                     
-                    # Preparar mensaje según el cambio
                     if rig_status == 'MINING':
                         # Rig volvió a estar activo
-                        icon = "✅"
-                        status_text = "ACTIVO"
-                        message = f"{icon} <b>Rig Recuperado - {ACCOUNT_NAME}</b>\n\n"
-                        message += f"🖥️ <b>Rig:</b> {rig_name}\n"
-                        message += f"📊 <b>Estado:</b> {status_text}\n"
-                        message += f"🕐 <b>Hora:</b> {current_time}\n\n"
-                        message += f"✅ El rig ha vuelto a minar correctamente"
+                        rigs_recuperados.append(rig_name)
+                        print(f"  ✅ {rig_name}: {previous_status} → {rig_status}")
                     else:
                         # Rig se cayó
-                        icon = "🔴"
-                        status_text = "CAÍDO"
-                        message = f"{icon} <b>Alerta: Rig Caído - {ACCOUNT_NAME}</b>\n\n"
-                        message += f"🖥️ <b>Rig:</b> {rig_name}\n"
-                        message += f"📊 <b>Estado:</b> {status_text}\n"
-                        message += f"🕐 <b>Hora:</b> {current_time}\n\n"
-                        message += f"⚠️ El rig dejó de minar"
-                    
-                    print(f"  {icon} {rig_name}: {previous_status} → {rig_status}")
-                    
-                    # Enviar notificación
-                    self.notifier.send_message(message)
+                        rigs_caidos.append(rig_name)
+                        print(f"  🔴 {rig_name}: {previous_status} → {rig_status}")
             
             # Guardar estados actualizados
             self.save_states()
@@ -162,8 +148,26 @@ class RigMonitor:
             print(f"  ✅ Activos: {active_count}")
             print(f"  ❌ Offline: {offline_count}")
             
-            if changes_detected > 0:
-                print(f"  🔔 Cambios detectados: {changes_detected}")
+            # Enviar un solo mensaje consolidado si hubo cambios
+            if rigs_caidos or rigs_recuperados:
+                message = f"📊 <b>Reporte de Cambios - {ACCOUNT_NAME}</b>\n\n"
+                message += f"🕐 <b>Hora:</b> {current_time}\n\n"
+                
+                if rigs_caidos:
+                    message += f"🔴 <b>Mineros Caídos ({len(rigs_caidos)}):</b>\n"
+                    message += f"{', '.join(rigs_caidos)}\n\n"
+                
+                if rigs_recuperados:
+                    message += f"✅ <b>Mineros Recuperados ({len(rigs_recuperados)}):</b>\n"
+                    message += f"{', '.join(rigs_recuperados)}\n\n"
+                
+                message += f"📈 <b>Estado Actual:</b>\n"
+                message += f"• Total: {len(rigs)}\n"
+                message += f"• Activos: {active_count}\n"
+                message += f"• Offline: {offline_count}"
+                
+                self.notifier.send_message(message)
+                print(f"  🔔 Cambios detectados: {len(rigs_caidos) + len(rigs_recuperados)}")
             else:
                 print(f"  ℹ️  Sin cambios detectados")
                 
